@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #ebf2ff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+    background-color: white;
+
+}
+
+.navbar__brand {
+    width: 150px;
+}
+
+.navbar_logo {
+    width: 100%;
+}
+
+.button__primary {
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.button__primary:hover {
+    border: 2px solid #F24C3D;
+    cursor: pointer;
+    transition: 0.09s;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+.hero__container__img {
+    width: 100%;
+}
+
+.hero__image {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0/25%)
+}
+
+.hero__description{
+    width: 100%;
+}
+.hero__text {
+    font-weight: 800;
+    font-size: 30px;
+    padding: 20px 0;
+    color: #1d3557;
+}
+.explore__menu__text {
+    font-family: 'Merriweather', serif;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #1d3557;
+    font-size: 30px;
+    font-weight: 800;
+}
+.food__card__image__container{
+    width: 100%;
+}
+.food__image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.food__card {
+    border-radius: 8px;
+    background-color: #F9F9F9;
+    border: 1px solid lightgrey;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0/5%)
+
+}
+#pizza__card{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.food__card__description {
+    padding: 15px;
+}
+@media (min-width: 768px) {
+    .explore__menu__lists {
+        margin-top: 48px;
+        display: flex;
+        gap: 15px;
+    }
+    .explore__menu__container{
+        position: relative;
+        padding: 20px;
+    }
+    
+    .explore__menu__grad__bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+        );
+        z-index: -3;
+        transform: skewY(-5deg);
+    }
+    
+
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+    .hero__container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+        
+    }
+
+    .button__primary {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+
+@media (min-width: 1024px) {
+    .container{
+        max-width: 70%;
+    }
+    .button__primary {
+        padding: 15px;
+        font-size: 15px;
+    }
+    
+    .explore__menu__text {
+        font-size: 40px;
+    }
+    .hero__description {
+        width: 100%;
+    }
+}
+
+.restaurant__img2 {
+    height: 290px;
+    width: 410px;
+    padding: 3px;
+}
+.email__input {
+    margin-top: 40px;
+    text-align: center;
+}
+.email__input__box {
+    border: 1px solid lightgrey;
+    height: 40px;
+    width: 260px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.footer__items {
+    background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+        );
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.footer__logo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+.footer__text {
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+   
+}
